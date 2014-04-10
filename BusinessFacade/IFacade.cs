@@ -8,6 +8,7 @@ namespace SchneiderMilkManagement.BusinessLayer.BusinessFacade
 {
     public abstract class IFacade
     {
+
         public abstract int DeleteWithArray(string IdStr);
     }
 }
