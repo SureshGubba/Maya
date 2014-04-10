@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{BC04D961-2650-4EB5-ADFB-259442C78247}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{202E4D43-801E-4644-AB38-89EE37BBC2AF}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Site", "http://localhost:57126", "{A969EF05-8FBB-49C6-8130-0253C72B2D2B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{44e9f846-65f4-47c8-a345-f18df953727d}|DataObjects.dll;{6E8226D7-9E3F-4306-A1C1-253C51EBBA22}|BusinessObjects.dll;{c82fa7f2-d7dc-46cd-8098-c228aaef5766}|BusinessFacade.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Site"
+		Debug.AspNetCompiler.PhysicalPath = "Site\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Site\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Site"
+		Release.AspNetCompiler.PhysicalPath = "Site\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Site\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Site\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferencesThirdParty", "ReferencesThirdParty", "{C39A1D06-6050-4DD9-A628-9E7DE49C84BD}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\SchneiderMaya2newwithexcel\DataObjects\bin\Debug\DocumentFormat.OpenXml.dll = ..\..\..\..\..\..\SchneiderMaya2newwithexcel\DataObjects\bin\Debug\DocumentFormat.OpenXml.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessFacade", "BusinessFacade\BusinessFacade.csproj", "{C82FA7F2-D7DC-46CD-8098-C228AAEF5766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{6E8226D7-9E3F-4306-A1C1-253C51EBBA22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataObjects", "DataObjects\DataObjects.csproj", "{44E9F846-65F4-47C8-A345-F18DF953727D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A969EF05-8FBB-49C6-8130-0253C72B2D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A969EF05-8FBB-49C6-8130-0253C72B2D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A969EF05-8FBB-49C6-8130-0253C72B2D2B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A969EF05-8FBB-49C6-8130-0253C72B2D2B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C82FA7F2-D7DC-46CD-8098-C228AAEF5766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82FA7F2-D7DC-46CD-8098-C228AAEF5766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82FA7F2-D7DC-46CD-8098-C228AAEF5766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82FA7F2-D7DC-46CD-8098-C228AAEF5766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E8226D7-9E3F-4306-A1C1-253C51EBBA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8226D7-9E3F-4306-A1C1-253C51EBBA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8226D7-9E3F-4306-A1C1-253C51EBBA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8226D7-9E3F-4306-A1C1-253C51EBBA22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E9F846-65F4-47C8-A345-F18DF953727D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E9F846-65F4-47C8-A345-F18DF953727D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E9F846-65F4-47C8-A345-F18DF953727D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E9F846-65F4-47C8-A345-F18DF953727D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C82FA7F2-D7DC-46CD-8098-C228AAEF5766} = {BC04D961-2650-4EB5-ADFB-259442C78247}
+		{6E8226D7-9E3F-4306-A1C1-253C51EBBA22} = {BC04D961-2650-4EB5-ADFB-259442C78247}
+		{44E9F846-65F4-47C8-A345-F18DF953727D} = {202E4D43-801E-4644-AB38-89EE37BBC2AF}
+	EndGlobalSection
+EndGlobal

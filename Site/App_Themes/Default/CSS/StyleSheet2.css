@@ -1,0 +1,194 @@
+﻿body{font-family:Arial;font-size:13px;color:#716558;margin:0; padding:0px 0px 0px 0px; background:#fdfdfd url(../images/headerbg.jpg) repeat-x left 0px}
+img{border:0}
+*{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; outline:none}
+.aligncenter{ text-align:center;}
+.fl{float:left !important}
+.fll{text-align:left;}
+.fr{float:right !important}
+.main{width:100%;background:url(../images/mainbg.jpg) no-repeat top right;}
+.container{width:1004px;margin:auto; overflow:hidden;}
+.header{height:100px;text-align:left;clear:both;vertical-align:top; padding:0px; float:left; width:1004px;}
+.headerleft{ float:left; width:440px; padding:25px 0px 0px 40px}
+.headerright{ float:right; padding:5px 8px; color:#999; font-size:13px; font-weight:normal; margin:15px 20px 0px 0px}
+.headerright b{ color:#42B46E  !important; font-weight:bold;}
+.headerright a{ color:#42B46E  !important; text-decoration:underline; font-weight:bold;}
+.headerright a:hover{ text-decoration:none;  color:#42B46E  !important;}
+.logintop{ float:right; width:auto; padding:4px 8px; font-size:12px; font-weight:bold; background:#DBDBDB}
+.menu{ float:left; width:1020px; height:36px; padding:21px 0px 0px 0px;}
+.menu ul{ float:left; width:1020px; list-style:none; padding:0px 0px 0px 20px;}
+.menu li{ float:left; width:auto; margin:0px 15px}
+.menu li a{ color:#5F5959; font-size:13px; font-weight:bold; text-decoration:none; padding:0px 0px 14px 0px;}
+.menusel{ border-bottom:3px solid #42B46E}
+.loginbg{width:350px; height: 225px; padding:105px 20px 20px 70px;  margin:80px auto 25px auto; background:url(../images/loginbg.png) no-repeat;}
+.contentmain{ float:left; width:960px; padding:20px 0px 30px 24px}
+.contenttop{float:left; width:960px;background:url(../images/top.jpg) no-repeat 0px 10px; height:35px; line-height:20px;  padding:0px 0px 0px 0px}
+.contenttop h1{float:left; width:auto; padding:0px 10px; font-size:18px; font-weight:bold; color:#42b46e !important; margin:0px 0px 0px 20px; background:url(../images/titlebg.jpg) repeat-x;}
+.headmian{ float:left; width:960px;}
+.han{ float:right; width:auto; margin:0px 0px 5px 0px}
+.contentbottom{float:left; width:960px;background:url(../images/bottom.jpg) no-repeat; height:32px; line-height:32px;}
+.contentmiddle{float:left; width:958px;background:#fefefe url(../images/middle.jpg) repeat-x left bottom; padding:0px 0px; border:#d1d1d1 solid 1px; border-width:0px 1px;}
+.loginbox{ float:left; width:280px;}
+.loggap{ margin:0px 0px 20px 0px !important}
+.loginrow{ float:left; width:280px;  margin:0px 0px 50px 0px; color:#737373;}
+.loginlabel{ float:left; width:300px; margin:0px 0px 5px 0px; font-size:13px; font-weight:bold; color:#716558;}
+.loginform{ float:left; width:280px;}
+.logininput{border:0px solid #BDBDBD; background:transparent; color:#737373; font-size:13px; height: 24px;    padding: 2px;    width: 270px;}
+.loginbutton{background:url(../images/login.png) no-repeat; float:left; width:74px; height:32px; border:0px; cursor:pointer;}
+.fottermian{ width:100%;  padding:0px 0px; height:35px; float:left;}
+.fotter{width:1004px; font-size:12px; border-top:#cfcfcf solid 1px; color:#363636; margin:0px auto;  height:35px;  line-height:35px;}
+.fotterleft{ float:left; width:450px; padding:0px 0px 0px 25px}
+.fotterright{ float:right; width:450px; text-align:right; padding:0px 25px 0px 0px}
+.fotterright a{color:#4760b8 !important; text-decoration:underline;}
+.mydash{ width:800px; float:left; padding:50px 0px 10px 100px; background:url(../images/sep.gif) no-repeat 100px top;}
+.mydash ul{ float:left; list-style:none;  width:800px; margin:0px 0px 55px 0px}
+.mydash ul li{ float:left; width:260px; text-align:center;}
+.mydash li a{ font-size:14px; text-decoration:underline; color:#33361D}
+.mydash li a:hover{ text-decoration:none}
+.breadcrum{ float:left; width:910px; padding:5px 0px 10px 30px; font-size:13px; color:#716558}
+.breadcrum a{ width:auto; margin:0px 5px 0px 0px; font-size:13px; color:#1e6ab8 !important}
+.breadcrum a:hover{text-decoration:none}
+.search{width:920px;float:left;margin-top:5px;background:url(../images/searchbg.png) no-repeat 0px 0px;}
+.searcht{width:920px;float:left;background:url(../images/searchtop.jpg) no-repeat 0px 7px;height:auto; display:none;}
+.searcht h3{ float:left; width:auto; font-size:18px; font-weight:bold; margin:0px 0px 0px 10px; color:#929292; padding:0px 5px;background:#fff; display:none;}
+.searchb{width:920px;float:left;background:url(../images/searchbottom.jpg) no-repeat;height:13px;line-height:13px; display:none;}
+.searchm{width:900px;float:left;padding:27px 10px;}
+.searchmr{width:910px;float:left;padding-bottom:0px;}
+.formfield1{width:900px;float:left}
+.formlabel1{width:153px;float:left;text-align:right; padding:13px 8px 0px 0px; font-weight:700;font-size:12px;color:#3c3c3c}
+.gridconatiner{width:920px;color:#000;margin:auto; }
+.seacontrol{width:409px;float:left;text-align:left; background:url(../images/sibg.png) no-repeat 0 0px; padding:5px 10px; height:32px;}
+.seacontrol input{ border:0px !important; background:transparent !important; width:400px !important; font-size:13px; color:#494949; height:35px;}
+.searchbuttom{background:url(../images/butsearch.png) no-repeat; float:left; width:84px; height:32px; border:0px; cursor:pointer; margin:0px 8px 0px 0px }
+.clearbuttom{background:url(../images/butclear.png) no-repeat; float:left; width:75px; height:32px; border:0px; cursor:pointer;}
+.butm{ float:left; width:250px; margin:4px 0px 0px 10px}
+.gridmain{ float:left; width:920px;}
+.gridmain table {color: #494949;    margin: auto;    width: 918px;}
+.gridrow{font-size:13px;line-height:20px;background:#FFF;border:1px solid #DBDBDB; border-width:0px 1px 1px 1px }
+.gridrow td{ padding:6px 5px;}
+.gridmain a{color:#FFFFFF !important; text-decoration:underline}
+.gridmain  a:hover{color:#FFFFFF !important; text-decoration:none}
+.altgridrow{font-size:13px;line-height:20px;background:#dfdfdf;border-bottom:1px solid #DBDBDB}
+.altgridrow td{ padding:8px 5px;}
+.gridheadernew{background:url(../images/gridbg.png) repeat-x 0 0px;color:#FFF!important;font-size:13px;font-weight:bold;line-height:22px;width:100%}
+.gridheadernew th{ line-height:22px; height: 36px; padding:0px 5px;}
+.gridheadernew td{ padding:7px 5px 7px 5px; background:transparent}
+.gridheadernew td a{ font-size:13px; color:#FFF !important; font-weight:bold; text-decoration:none}
+.gridheadernew td a:hover{ text-decoration:underline}
+.subgridheader{border:1px solid #DBDBDB;background-color:#204090;color:#FFF!important;font-size:11px;font-weight:700;line-height:22px;width:100%}
+.parentgriditem{font-weight:700;font-size:12px;border-bottom:1px solid #DBDBDB}
+.gfm{float:left; width:895px; margin:10px 0px 0px 0px; padding:0px 0px 0px 20px}
+.gfl{float:left; width:450px; padding:4px 0px 0px 0px; color:#666;}
+.gfr{float:right; width:450px;}
+.gridnone{padding:0px !important;}
+
+
+.gfl a{color:#1a9849;font-size:12px;text-decoration:underlined}
+.gfl a:hover{text-decoration:none}
+
+.pagingright{ float:right; width:auto; font-size:12px;}
+.pagingright a{ float:left; width:auto; font-size:12px; padding:2px 5px; margin:0px 4px 0px 0px; background:#fff;  border:#1a9849 solid 1px; color:#494949; text-decoration:none}
+.pagesel{background:#1a9849 !important; color:#fff !important; border:#fff solid 1px !important; }
+
+.gridbottom{ float:left; width:920px; background:url(../images/gridbottom.png) no-repeat 0 0px; height:5px; line-height:5px;}
+
+.mand {background: none repeat scroll 0 0 #ECECEC; color:#716558; float: left;    margin: 5px 0px 0px 30px; font-size:12px;    padding:5px;    text-align: right;    width:885px;}
+.mand span{ color:red}
+
+.pageheight{float:right; width:2px; height:330px;}
+
+
+.formmain{ float:left; width:820px; padding:30px 0px 0px 100px}
+
+.formrow{ float:left; width:820px; margin:0px 0px 10px 0px; padding:0px 0px 0px 0px;}
+
+.formfield{width:380px;float:left; margin:0px 0px 15px 0px}
+.formlabel{width:280px;float:left;text-align:left;padding:0px 0px 6px 0px;font-weight:normal;font-size:13px;color:#737373}
+.formlabel span{ color:Red !important}
+.formcontrol{width:355px;float:left;text-align:left;  background:url(../images/input.png) no-repeat 0 0px; height:32px; padding:4px 4px 0px 4px}
+.formcontrol input{ float:left; border:0px !important; background:transparent !important; width:275px !important; color:#737373 !important; height:22px;}
+.form_textarea{width:355px;float:left;text-align:left; background:url(../images/text_area.png) no-repeat 0 0px;padding:4px 4px 0px 4px;height:100px;}
+.form_textarea textarea{ float:left; border:0px !important; width:290px !important; color:#737373 !important;height:90px;}
+.formcontrol select{float:left; border:0px !important; background:transparent !important; width:280px !important; color:#737373 !important; height:18px; margin:2px 0px 0px 0px}
+
+.bottombuttons{ float:left; width:300px; padding:10px 0px 0px 280px}
+.savebuttom{background:url(../images/save.png) no-repeat; float:left; width:84px; height:32px; border:0px; cursor:pointer; margin:0px 8px 0px 0px }
+.backbuttom{background:url(../images/back.png) no-repeat; float:left; width:84px; height:32px; border:0px; cursor:pointer; margin:0px 8px 0px 0px }
+
+
+.contentinner{width:937px;float:left;margin:10px;border:0px solid #666666;padding:0 0 25px 0;}
+
+.form{width:450px;float:left;padding:5px 0 0 0;}
+.form_name{width:180px;float:left;text-align:right;padding:0 5px 0 0px;font-size:13px;line-height:35px; font-weight:bold;}
+.form_input{width:250px;float:left;padding:5px 0 0;line-height:10px;font-size:13px;}
+.form_input_in input{width:200px;float:left;padding:3px 0px;}
+.form_input_in textarea{width:200px;float:left;padding:3px 0px;}
+.form_input_in{width:280px;float:left;line-height:25px;}
+.form_input_in select{width:200px;float:left;padding:3px 0px;}
+
+.innermain{ float:left; width:955px; min-height:350px}
+
+
+.reportsmain{float:left;width:900px; padding:20px 0px 0px 40px}
+.reportsrep{float:left; width:450px;}
+.reportsrep h2{float:left; width:400px; padding:0px 0px 10px 10px; font-size:20px; font-weight:bold; color:#42b46e !important;}
+.wid150{width:150px !important;text-align:center;}
+.wid18{width:18px !important;text-align:center;}
+.wid91{width:91px !important;text-align:center;}
+
+
+
+
+.intt{ float:left; width:910px; padding:15px 0px 15px 25px; font-size:14px; font-weight:bold; color:#42B46E !important}
+
+.svrgridmain{ float:left; width:920px;}
+.svrgridmain table {color: #494949}
+
+.svrgridheadernew{background:url(../images/gridbg.jpg) repeat-x 0 0px;color:#FFF!important;font-size:13px;font-weight:bold;line-height:22px;width:100%}
+.svrgridheadernew td{ padding:7px 5px 7px 5px}
+.svrgridheadernew td a{ font-size:13px; color:#FFF !important; font-weight:bold; text-decoration:none}
+.svrgridheadernew td a:hover{ text-decoration:underline}
+
+.center{text-align: center;}
+.error{color: #FF0000;}
+.gridfooter
+{
+	clear: both;
+	color: #5B78AA;
+	font-size: 9px;
+}
+a.gridfooterlinks
+{
+	color: #065C8E;
+	font-size: 12px;
+	text-decoration: underlined;
+}
+
+a.gridfooterlinks:hover
+{
+		text-decoration: none;
+}
+/*Pager Style*/
+.pagestyle td table{clear:both;margin:5px; width:inherit !important;}
+.pagestyle td table td{border-bottom:solid 0px #fff !important;}
+.pagestyle span {background-color:#00932C;border:1px solid #C7C7C7;color:#FFFFFF;float:left;font-size:11px;font-weight:bold;height:14px;line-height:13px;margin-left:3px;
+padding:2px 4px 1px;text-align:center;text-decoration:none;width:auto;}
+.pagestyle a  {background-color:#FFFFFF;border:1px solid #C7C7C7;color:#4F4F4F !important;float:left;font-size:11px;font-weight:bold;height:14px;line-height:13px;margin-left:3px;
+padding:2px 4px 1px;text-align:center;text-decoration:none;width:auto;}
+.pagestyle a:hover{background-color:#73AF19;color:#fff !important;}
+/*End*/
+
+.comments{height:100px; width:350px;}
+.padl5{padding-left:5px !important;}
+.cb{clear:both;}
+.searchreport{width:920px;float:left;margin-top:5px;background:url(../images/searchbg.png) no-repeat 0px 0px;;height:100px;}
+.formcontrolreport{width:100px;float:left;text-align:left;  height:32px; padding:4px 4px 0px 4px}
+.formcontrolreport input{ float:left; width:150px !important;  height:22px;text-align:left}
+.dashlink {color: #737373;float: left;font-size: 15px;font-weight: bold;margin: 5px 0 0;text-decoration: none;width: 250px;}
+.tl{text-align:center;}
+
+.serinpu{width:150px;float:left;padding:10px 0px 0px 0px;}
+.serinpu input{border:1px solid #ccc;height:22px;width:224px;}
+.wid90i{width:90px!important;}
+.formfield1new{width:650px;float:left;padding:0px 0px 10px 0px;}
+.exportbuttom{background:url(../images/butexport.png) no-repeat; float:left; width:84px; height:32px; border:0px; cursor:pointer; margin:0px 8px 0px 0px }
+.newpad{padding: 10px 0 0 313px!important;}
