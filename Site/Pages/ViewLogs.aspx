@@ -39,7 +39,7 @@
     <script src="../js/calendar-en.min.js" type="text/javascript"></script>
 
     <script type="text/javascript">
-        $(document).ready(function () {
+        Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () {
             $("#<%=txtFromDate.ClientID %>").dynDateTime({
                 showsTime: true,
                 ifFormat: "%Y/%m/%d %H:%M",
