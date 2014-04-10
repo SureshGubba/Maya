@@ -40,6 +40,7 @@
 
     <script type="text/javascript">
         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () {
+
             $("#<%=txtFromDate.ClientID %>").dynDateTime({
                 showsTime: true,
                 ifFormat: "%Y/%m/%d %H:%M",
